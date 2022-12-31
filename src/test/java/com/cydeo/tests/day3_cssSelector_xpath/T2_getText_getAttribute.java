@@ -34,7 +34,8 @@ public class T2_getText_getAttribute {
 
         WebElement forgotPasswordLink = driver.findElement(By.className("login-link-forgot-pass"));
 
-        String expectedForgotPasswordLinkText = "Forgot your password?";
+        // String expectedForgotPasswordLinkText = "Forgot your password?";
+        String expectedForgotPasswordLinkText = "FORGOT YOUR PASSWORD?";
         String actualForgotPasswordLinkText = forgotPasswordLink.getText();
 
         if (actualForgotPasswordLinkText.equals(expectedForgotPasswordLinkText)){
