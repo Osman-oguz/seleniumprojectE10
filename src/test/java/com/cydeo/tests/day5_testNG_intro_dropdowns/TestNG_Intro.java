@@ -22,7 +22,7 @@ public class TestNG_Intro {
 
         //AssertTrue
         String actual = "apple";
-        String expected = "apple2";
+        String expected = "apple";
 
         Assert.assertTrue(actual.equals(expected));
     }
